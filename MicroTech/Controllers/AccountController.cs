@@ -8,7 +8,7 @@ namespace MicroTech.Controllers
     [Route("api/[controller]")]
     public class AccountController : ControllerBase
     {
-        private readonly TestDevContext _context;
+      
         private readonly AccountService _accountService;
 
         public AccountController(TestDevContext context, AccountService accountService)
